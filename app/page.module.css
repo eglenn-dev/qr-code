@@ -33,13 +33,15 @@
 }
 
 .downloadButton {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: 1em;
-  font-weight: 700;
-  background: -webkit-linear-gradient(#e15bf9, #6d2eff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 500;
   margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
