@@ -27,7 +27,6 @@ export default function Home() {
       <h1 className="gradient">QR Code Generator</h1>
       <section className={styles.grid}>
         <div className={styles.form}>
-          <span className="gradient-2">Settings</span>
           <div className="coolinput">
             <label htmlFor="size" className="text">Size (px)</label>
             <input
